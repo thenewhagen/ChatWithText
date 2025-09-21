@@ -1,18 +1,5 @@
-This file lists the Python libraries required to run your application.
-It is used by the Dockerfile to install dependencies.
-Flask is the web framework for the API
 Flask==2.3.2
-
-numpy is used for numerical operations on embeddings
 numpy==1.24.3
-
-scikit-learn is used for cosine similarity calculation
 scikit-learn==1.2.2
-
-The Vertex AI SDK for Python to interact with Vertex AI services
 google-cloud-aiplatform==1.36.1
-
-The ollama library is for local development and will not be needed on GCP.
-You can remove this line for your production deployment on Cloud Run to
-reduce the size of your container image.
 ollama==0.1.2
